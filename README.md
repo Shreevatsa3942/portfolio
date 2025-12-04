@@ -1,16 +1,106 @@
-# React + Vite
+# 🚀 Shreevatsa's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing my professional experience, projects, and technical skills. Built with cutting-edge web technologies and designed with a focus on aesthetics and user experience.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Fully responsive layout that works seamlessly across all devices
+- **Modern UI/UX**: Clean, professional design with smooth animations using Framer Motion
+- **Interactive Sections**:
+  - About Me - Introduction and background
+  - Experience - Professional work history with detailed descriptions
+  - Projects - Showcase of notable projects with technologies used
+- **Optimized Performance**: Built with Vite for lightning-fast development and optimized production builds
+- **Accessibility**: Semantic HTML and ARIA labels for better accessibility
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+- **Deployment**: [Vercel](https://vercel.com/)
 
-## Expanding the ESLint configuration
+## 📦 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+portfolio/
+├── public/           # Static assets
+├── src/
+│   ├── components/   # Reusable React components
+│   ├── sections/     # Main page sections (About, Experience, Projects)
+│   ├── styles/       # Global styles and utilities
+│   ├── App.jsx       # Main application component
+│   └── main.jsx      # Application entry point
+├── index.html        # HTML template
+└── package.json      # Project dependencies
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The optimized production build will be created in the `dist` directory.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## 🎨 Customization
+
+To customize this portfolio for your own use:
+
+1. Update personal information in `src/sections/About.jsx`
+2. Modify experience details in `src/sections/Experience.jsx`
+3. Add your projects in `src/sections/Projects.jsx`
+4. Adjust colors and styling in `tailwind.config.js`
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+## 📧 Contact
+
+Shreevatsa Balthillaya - [Your Email]
+
+Project Link: [https://github.com/yourusername/portfolio](https://github.com/yourusername/portfolio)
+
+---
+
+⭐ If you found this project helpful, please consider giving it a star!
